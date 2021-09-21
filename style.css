@@ -1,0 +1,15 @@
+.green {
+  background-color: rgb(55, 212, 55);
+}
+.red {
+  background-color: rgb(206, 61, 61);
+}
+.yellow {
+  background-color: rgb(228, 228, 83);
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Weather Dashboard title on top of page  -->
+    <div class="d-block p-2 bg-dark text-center text-white">
+      <h1>Weather Dashboard</h1>
+    </div>
+    <br />
+    <main class="container-fluid">
+      <section class="row">
+        <!-- Search button to search each city-->
+        <aside class="col-md-2">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="citysearch"
+                ><i class="fas fa-search"></i
+              ></span>
+            </div>
+            <input
+              id="city"
+              type="text"
+              class="form-control"
+              placeholder="City Name"
+            />
+          </div>
+          <ul id="citybuttons" class="list-group"></ul>
+        </aside>
+        <br />
+        <section class="col-md-8">
+          <div class="row">
+            <div id="currentweather" class="col-md-8"></div>
+          </div>
+          <br />
+          <div id="fivedayforecast" class="row"></div>
+        </section>
+      </section>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
