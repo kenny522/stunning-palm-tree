@@ -94,7 +94,7 @@ You are required to submit BOTH of the following for review:
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
-![Screen Shot 2021-09-21 at 2 36 44 PM](https://user-images.githubusercontent.com/84942098/134252030-6ab2d10c-062b-410d-8f66-1982f54b0b84.jpeg)
+
 
 
 Here is the working [LINK](https://kenny522.github.io/stunning-palm-tree/) to the project.
