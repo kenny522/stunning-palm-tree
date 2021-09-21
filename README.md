@@ -96,5 +96,5 @@ You are required to submit BOTH of the following for review:
 
 
 
-
+![Screen Shot 2021-09-21 at 2 36 44 PM](https://user-images.githubusercontent.com/84942098/134252774-b679743d-3f59-4612-ba24-c5db6f22e12a.jpeg)
 Here is the working [LINK](https://kenny522.github.io/stunning-palm-tree/) to the project.
